@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="TC4_VerifyViewProductDetail" parallel="Tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="tests.TC4_VerifyViewProductDetail">
+            </class>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="tests.TC4_VerifyViewProductDetail">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="TC5_VerifyEditProduct" parallel="Tests" thread-count="2">
+    <test name="ChromeBrowser">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="tests.TC5_VerifyEditProduct">
+            </class>
+        </classes>
+    </test>
+    <test name="FirefoxBrowser">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="tests.TC5_VerifyEditProduct">
+            </class>
+        </classes>
+    </test>
+</suite>

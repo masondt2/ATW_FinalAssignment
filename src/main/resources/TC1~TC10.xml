@@ -1,0 +1,30 @@
+<suite name="FinalAssignment" parallel="Tests" thread-count="2">
+    <test name="TC1_C">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="tests.TC1_VerifyLoginPage"></class>
+        </classes>
+    </test>
+    <test name="TC1_F">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+            <class name="tests.TC1_VerifyLoginPage"></class>
+        </classes>
+    </test>
+    <test name="TC2_C">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="tests.TC2_VerifySuccessfullyLoggedin">
+            </class>
+        </classes>
+    </test>
+    <test name="TC2_F">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="tests.TC2_VerifySuccessfullyLoggedin">
+            </class>
+        </classes>
+    </test>
+</suite>

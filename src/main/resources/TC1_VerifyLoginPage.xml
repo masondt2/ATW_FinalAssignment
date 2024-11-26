@@ -1,0 +1,18 @@
+<suite name="FinalAssignment" parallel="Tests" thread-count="2">
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome">
+        </parameter>
+        <classes>
+            <class name="tests.TC1_VerifyLoginPage">
+            </class>
+        </classes>
+    </test>
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox">
+        </parameter>
+        <classes>
+            <class name="tests.TC1_VerifyLoginPage">
+            </class>
+        </classes>
+    </test>
+</suite>
